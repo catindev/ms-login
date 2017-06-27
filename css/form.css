@@ -1,13 +1,16 @@
 
 /* Блок шапки */
 .logo{
-  width: 201px;
-  height: 260px;
-  background: #fff url('../images/logo.png') center left -7px no-repeat;
+  width: 200px;
+  height: 250px;
+  background: #fff url('../images/logo.svg') center left -5px no-repeat;
+  background-size: 200px 250px;
+
 }
 
 /* блок формы ввода*/
 .login-form{
+  padding: 10px 40px 10px 10px;
 }
 
 /* Заголовок формы ввода */
@@ -28,8 +31,9 @@
 /* Поле формы ввода */
 .login-form__input{
   display: block;
-  width: 250px;
-  height: 33px;
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+  font-size: 16px;
   border: 2px solid black;
   border-radius: 4px;
 }
