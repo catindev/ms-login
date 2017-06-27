@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="187px" height="114px" viewBox="0 0 187 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="203px" height="133px" viewBox="0 0 203 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <title>LOGO</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
         <g id="LOGO" stroke-width="10">
-            <g id="logo">
+            <g id="logo" transform="translate(0.000000, 9.000000)">
                 <path d="M140.090444,67.1899441 L186.680887,113.681564" id="Line" stroke="#353B3F" stroke-dasharray="5,2,5"></path>
                 <path d="M46.9095563,37.8938547 L92.6774722,83.5646917" id="Line" stroke="#A23A99"></path>
                 <path d="M0.319112628,84.3854749 L46.9095563,37.8938547" id="Line" stroke="#A23A99"></path>

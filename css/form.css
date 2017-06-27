@@ -3,14 +3,15 @@
 .logo{
   width: 200px;
   height: 250px;
-  background: #fff url('../images/logo.svg') center left -5px no-repeat;
+  background: #fff url('../images/logo.svg') bottom no-repeat;
   background-size: 200px 250px;
 
 }
 
 /* блок формы ввода*/
 .login-form{
-  padding: 10px 40px 10px 10px;
+  padding: 10px 40px 10px 40px;
+  color:#353B3F;
 }
 
 /* Заголовок формы ввода */
@@ -34,7 +35,7 @@
   width: 100%;
   padding: 10px 5px 10px 5px;
   font-size: 16px;
-  border: 2px solid black;
+  border: 2px solid #353B3F;
   border-radius: 4px;
 }
 
@@ -46,19 +47,20 @@
 /*кнопка формы ввода*/
 .login-form__btn{
   background-color: white;
+  color: #353B3F;
   font-weight: bold;
   width: 125px;
   height:40px;
-  border: 3px solid black;
+  border: 3px solid #353B3F;
   border-radius: 4px;
   font-size: 17px;
   cursor: pointer;
   outline:none;
-  box-shadow: 6px 6px 0;
+  box-shadow: 6px 6px 0 #353B3F;
 }
 
 .login-form__btn:hover{
-  box-shadow: 3px 3px 0;
+  box-shadow: 3px 3px 0 #353B3F;
 }
 .login-form__btn:active{
   box-shadow: none;
@@ -66,11 +68,12 @@
 
 @media screen and (min-width:1024px) {
   .logo{
-    position: relative;
-    top:250px;
-  }
+      height:500px;
+    }
   .login-form{
-    margin: auto;
-    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
   }
 }
