@@ -3,7 +3,7 @@
 .logo{
   width: 200px;
   height: 250px;
-  background: #fff url('../images/logo.svg') bottom no-repeat;
+  background: #fff url('../images/logo.svg') center no-repeat;
   background-size: 200px 250px;
 
 }
@@ -46,6 +46,7 @@
 
 /*кнопка формы ввода*/
 .login-form__btn{
+  display: block;
   background-color: white;
   color: #353B3F;
   font-weight: bold;
@@ -68,12 +69,14 @@
 
 @media screen and (min-width:1024px) {
   .logo{
-      height:500px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
     }
   .login-form{
     position: absolute;
-    left: 50%;
-    top: 50%;
+    top:50%;
+    left:50%;
     transform: translate(-50%,-50%);
   }
 }

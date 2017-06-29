@@ -9,15 +9,16 @@
   </head>
   <body>
     <div class="logo"></div>
-      <form class="login-form" action="" method="post">
+    <form class="login-form" action="" method="post">
         <h1 class="login-form__header">Вход в Майндсейлс</h1>
         <label for="phone-text" class="login-form__label">Номер телефона или эл. почта</label>
-        <input type="tel" name="phone-text" class="login-form__input">
+        <input type="tel" name="phone-text" class="login-form__input" id='phone_text'>
         <label for="password" class="login-form__label">Пароль</label>
-        <input type="password" name="password" class="login-form__input">
+        <input type="password" name="password" class="login-form__input" id='password'>
         <br>
-        <input type="button" value="Войти" class="login-form__btn">
-      </form>
-    <script type="text/javascript" src="js/form.js"></script>
+        <input type="button" value="Войти" class="login-form__btn"><br>
+        <h1 id='validation' style="margin-top:20px"></h1>
+    </form>
+    <script type="text/javascript" src='js/asd.js'></script>
   </body>
 </html>
